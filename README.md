@@ -10,14 +10,11 @@
 <p>Merci d'avoir pris un peu de votre temps pour remplire ce questionnaire, ça nous aide !</p>
   <p>Vous pouvez désormais retourner à l'acceuil ou poursuivre vos recherches.</p>
     <p></p>
-        <form role="search">
-  <div>
-    <input type="search" id="maRecherche" name="q"
-     placeholder="Rechercher sur le site…"
-     aria-label="Rechercher parmi le contenu du site">
-    <button>Rechercher</button>
-  </div>
+<form>
+<input type="text" id="input" name="input" value="">
+<input type="button" id="bouton" value="Rechercher" onclick="controle()">
 </form>
+
 <p></p>
     <button><a href="https://nsi-team.github.io/GIF_mignon/">Retour à l'acceuil</a></button>
 <p> </p>
